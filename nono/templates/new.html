@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}  
+  <form>
+    <div class="form-group">
+      <label for="name">한글 제품명</label>
+      <input type="text" class="form-control" id="name" name="name">
+    </div>
+    <div class="form-group">
+      <label for="repalcement">대체상품</label>
+      <input type="text" class="form-control" id="repalcement" name="repalcement">
+    </div>
+    <button type="submit" class="btn btn-primary">추가하기</button>
+  </form>
+{% endblock %}
